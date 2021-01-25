@@ -1,6 +1,6 @@
-#Elena Barashkova
+# Elena Barashkova
 
-##Contact information:
+## Contact information:
 
 **Phone:** +375293684138
 
@@ -8,13 +8,13 @@
 
 **Discord:** elenabarashkova#5131
 
-##About:
+## About:
 
 I enjoy neat and convenient behavior of websites, like creating and improving visual part of web applications. That's why I would like to become a front-end developer.
 I like getting new knowledge and skills, dive into unknown technologies.
 While working on projects I am usually neat and thorough, enjoy achieving perfect result.
 
-##Skills:
+## Skills:
 
 * Html/Css
 * Js
@@ -25,7 +25,7 @@ While working on projects I am usually neat and thorough, enjoy achieving perfec
 * Git
 * Gulp
 
-##My code example:
+## My code example:
 
 *JavaScript function example*
 
@@ -42,7 +42,7 @@ function counter(forArray) {
 console.log(counter(array));
 ```
 
-##Work experience:
+## Work experience:
 
 * finished geekbrains front-end course
 * worked as html coder for 7 months
@@ -53,11 +53,11 @@ console.log(counter(array));
     * and etc.
 * tried freelancing. [Link on client's test server](http://dev.tahdaf.com/index.html)
 
-##Education:
+## Education:
 
 * geekbrains front-end 
 * codecademy (js course)
 
-##Language:
+## Language:
 
 **English level:** B2 (*upper intermediate*)
