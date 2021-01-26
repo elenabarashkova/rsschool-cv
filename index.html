@@ -1,11 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<title>CV</title>
 </head>
 <body>
-    
+	<header class="clearfix">
+		<div class="name">
+			<h1>Elena Barashkova</h1>
+		</div>
+		<div class="photo">
+			<img src="images/cv-pic.jpg" alt="Photo for CV">
+		</div>
+	</header>
+	<section>
+		<h2>Contact information:</h2>
+		<ul class="contact-list">
+			<li><span class="bold">Phone: </span>+375293684138</li>
+			<li><span class="bold">Email: </span>lena.barashkova23@gmail.com</li>
+			<li><span class="bold">Discord: </span>elenabarashkova#5131</li>
+		</ul>
+	</section>
+	<section>
+		<h2>About:</h2>
+		<p>
+			I enjoy neat and convenient behavior of websites, like creating and improving 
+			visual part of web applications. That’s why I would like to become a front-end 
+			developer. I like getting new knowledge and skills, dive into unknown 
+			technologies. While working on projects I am usually neat and thorough, enjoy 
+			achieving perfect result.
+		</p>
+	</section>
+	<section>
+		<h2>Skills:</h2>
+		<ul>
+			<li>Html/Css</li>
+			<li>Js</li>
+			<li>Jquery</li>	
+			<li>BEM methodology</li>	
+			<li>Sass/Less</li>	
+			<li>Bootstrap framework</li>	
+			<li>Git</li>	
+			<li>Gulp</li>	
+		</ul>
+	</section>
+	<section>
+		<h2>My code example:</h2>
+		<p class="italian">JavaScript function example</p>
+		<pre>
+			<code>
+const array = [1, 2, 3, 4, 5, 6];
+function counter(forArray) {
+    if(forArray.length !== 0) {
+        forArray.shift();
+        return 1 + counter(forArray);
+    } else {
+        return 0;
+    }
+}
+console.log(counter(array));
+			</code>
+		</pre>	
+	</section>
+	<section>
+		<h2>Work experience:</h2>
+		<ul>
+			<li>finished geekbrains front-end course</li>
+			<li>worked as html coder for 7 months</li>
+			<li>now work in family’s business as a technical help
+				<ul>
+					<li>created design</li>
+					<li>made a <a href="https://www.boomballoon.by/" target="_blank">web-site</a></li>
+					<li>work on advertising and content</li>
+					<li>and etc.</li>
+				</ul>
+			</li>	
+			<li>tried freelancing. <a href="http://dev.tahdaf.com/index.html" target="_blank">Link on client’s test server</a></li>	
+		</ul>
+	</section>
+	<section>
+		<h2>Education:</h2>
+		<ul>
+			<li>geekbrains front-end</li>
+			<li>codecademy (js course)</li>
+		</ul>
+	</section>
+	<section>
+		<h2>Language:</h2>
+		<p><span class="bold">English level:</span> B2 <span class="italian"></span>(upper intermediate)</p>
+	</section>
 </body>
 </html>
