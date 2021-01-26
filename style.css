@@ -30,6 +30,15 @@ li > ul {
   padding-top: 10px;
 }
 
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 body {
   width: 80%;
   margin: 10px auto;
